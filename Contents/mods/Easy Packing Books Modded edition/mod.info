@@ -1,0 +1,10 @@
+name=Easy Packing Books Modded edition
+id=Easy Packing Books Modded edition
+description= W.I.P.
+poster=preview.png
+icon=icon.png
+author=Alximik
+modversion=0.0.0.1
+multiplayer=true
+url=https://ko-fi.com/alximik
+require=ScavengingSkillFixed
