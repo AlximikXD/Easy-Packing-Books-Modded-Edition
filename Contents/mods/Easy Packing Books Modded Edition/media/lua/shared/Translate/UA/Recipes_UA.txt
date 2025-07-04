@@ -1,0 +1,64 @@
+Recipe_UA = {
+
+/** -----  ----- || SKILL BOOKS RECIPES || -----  ----- **/
+
+	Recipe_Pack_Scavenging_Skill_Books = "Упакувати книги про Збирачів",
+	Recipe_Unpack_Scavenging_Skill_Books = "Розпакувати книги про Збирачів",
+	
+/** -----  ----- || DRIVING SKILL BOOKS RECIPES || -----  ----- **/
+
+	Recipe_Pack_Driving_Skill_Books = "Упакувати книги про Водіння",
+	Recipe_Unpack_Driving_Skill_Books = "Розпакувати книги про Водіння",
+	
+/** -----  ----- || LY Lockpicking SKILL BOOKS || -----  ----- **/
+
+	Recipe_Pack_Lockpicking_Skill_Books = "Упакувати книги про Відмикання замків",
+	Recipe_Unpack_Lockpicking_Skill_Books = "Розпакувати книги про Відмикання замків",
+	
+/** -----  ----- || ALBION'S LITERACY Mod SKILL BOOKS || -----  ----- **/
+	
+	Recipe_Pack_Sprinting_Skill_Books = "Упакувати книги про Біг",
+	Recipe_Unpack_Sprinting_Skill_Books = "Розпакувати книги про Біг",
+	
+	Recipe_Pack_Nimble_Skill_Books = "Упакувати книги про Спритність",
+	Recipe_Unpack_Nimble_Skill_Books = "Розпакувати книги про Спритність",
+	
+	Recipe_Pack_Aiming_Skill_Books = "Упакувати книги про Точність",
+	Recipe_Unpack_Aiming_Skill_Books = "Розпакувати книги про Точність",
+	
+	Recipe_Pack_Lightfoot_Skill_Books = "Упакувати книги про Легкий крок",
+	Recipe_Unpack_Lightfoot_Skill_Books = "Розпакувати книги про Легкий крок",
+	
+	Recipe_Pack_Reloading_Skill_Books = "Упакувати книги про Перезарядження",
+	Recipe_Unpack_Reloading_Skill_Books = "Розпакувати книги про Перезарядження",
+	
+	Recipe_Pack_Blunt_Skill_Books = "Упакувати книги про Довг. дробяще",
+	Recipe_Unpack_Blunt_Skill_Books = "Розпакувати книги про Довг. дробяще",
+	
+	Recipe_Pack_Maintenance_Skill_Books = "Упакувати книги про Обслуговування",
+	Recipe_Unpack_Maintenance_Skill_Books = "Розпакувати книги про Обслуговування",
+	
+	Recipe_Pack_Axe_Skill_Books = "Упакувати книги про Сокири",
+	Recipe_Unpack_Axe_Skill_Books = "Розпакувати книги про Сокири",
+	
+	Recipe_Pack_SmallBlade_Skill_Books = "Упакувати книги про Корот. ріжуче",
+	Recipe_Unpack_SmallBlade_Skill_Books = "Розпакувати книги про Корот. ріжуче",
+
+	Recipe_Pack_LongBlade_Skill_Books = "Упакувати книги про Довг. ріжуче",
+	Recipe_Unpack_LongBlade_Skill_Books = "Розпакувати книги про Довг. ріжуче",
+	
+	Recipe_Pack_Fitness_Skill_Books = "Упакувати книги про Фітнес",
+	Recipe_Unpack_Fitness_Skill_Books = "Розпакувати книги про Фітнес",
+	
+	Recipe_Pack_Sneak_Skill_Books = "Упакувати книги про Скритність",
+	Recipe_Unpack_Sneak_Skill_Books = "Розпакувати книги про Скритність",
+	
+	Recipe_Pack_Spear_Skill_Books = "Упакувати книги про Списи",
+	Recipe_Unpack_Spear_Skill_Books = "Розпакувати книги про Списи",
+	
+	Recipe_Pack_Strength_Skill_Books = "Упакувати книги про Силу",
+	Recipe_Unpack_Strength_Skill_Books = "Розпакувати книги про Силу",
+
+	Recipe_Pack_SmallBlunt_Skill_Books = "Упакувати книги про Корот. дробяще",
+	Recipe_Unpack_SmallBlunt_Skill_Books = "Розпакувати книги про Корот. дробяще",
+}

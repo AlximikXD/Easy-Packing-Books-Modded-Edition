@@ -1,0 +1,64 @@
+Recipe_EN = {
+
+/** -----  ----- || SCAVENGING SKILL BOOKS RECIPES || -----  ----- **/
+
+	Recipe_Pack_Scavenging_Skill_Books = "Pack Scavenging Books",
+	Recipe_Unpack_Scavenging_Skill_Books = "Unpack Scavenging Books",
+	
+/** -----  ----- || DRIVING SKILL BOOKS RECIPES || -----  ----- **/
+
+	Recipe_Pack_Driving_Skill_Books = "Pack Driving Books",
+	Recipe_Unpack_Driving_Skill_Books = "Unpack Driving Books",
+	
+/** -----  ----- || LY Lockpicking SKILL BOOKS || -----  ----- **/
+
+	Recipe_Pack_Lockpicking_Skill_Books = "Pack Lockpicking Books",
+	Recipe_Unpack_Lockpicking_Skill_Books = "Unpack Lockpicking Books",
+	
+/** -----  ----- || ALBION'S LITERACY Mod SKILL BOOKS || -----  ----- **/
+	
+	Recipe_Pack_Sprinting_Skill_Books = "Pack Sprinting Books",
+	Recipe_Unpack_Sprinting_Skill_Books = "Unpack Sprinting Books",
+	
+	Recipe_Pack_Nimble_Skill_Books = "Pack Nimble Books",
+	Recipe_Unpack_Nimble_Skill_Books = "Unpack Nimble Books",
+	
+	Recipe_Pack_Aiming_Skill_Books = "Pack Aiming Books",
+	Recipe_Unpack_Aiming_Skill_Books = "Unpack Aiming Books",
+	
+	Recipe_Pack_Lightfoot_Skill_Books = "Pack Lightfoot Books",
+	Recipe_Unpack_Lightfoot_Skill_Books = "Unpack Lightfoot Books",
+	
+	Recipe_Pack_Reloading_Skill_Books = "Pack Reloading Books",
+	Recipe_Unpack_Reloading_Skill_Books = "Unpack Reloading Books",
+	
+	Recipe_Pack_Blunt_Skill_Books = "Pack Short Blunt Books",
+	Recipe_Unpack_Blunt_Skill_Books = "Unpack Short Blunt Books",
+	
+	Recipe_Pack_Maintenance_Skill_Books = "Pack Maintenance Books",
+	Recipe_Unpack_Maintenance_Skill_Books = "Unpack Maintenance Books",
+	
+	Recipe_Pack_Axe_Skill_Books = "Pack Axe Books",
+	Recipe_Unpack_Axe_Skill_Books = "Unpack Axe Books",
+	
+	Recipe_Pack_SmallBlade_Skill_Books = "Pack Short Blade Books",
+	Recipe_Unpack_SmallBlade_Skill_Books = "Unpack Short Blade Books",
+
+	Recipe_Pack_LongBlade_Skill_Books = "Pack Long Blade Books",
+	Recipe_Unpack_LongBlade_Skill_Books = "Unpack Long Blade Books",
+	
+	Recipe_Pack_Fitness_Skill_Books = "Pack Fitness Books",
+	Recipe_Unpack_Fitness_Skill_Books = "Unpack Fitness Books",
+	
+	Recipe_Pack_Sneak_Skill_Books = "Pack Sneak Books",
+	Recipe_Unpack_Sneak_Skill_Books = "Unpack Sneak Books",
+	
+	Recipe_Pack_Spear_Skill_Books = "Pack Spear Books",
+	Recipe_Unpack_Spear_Skill_Books = "Unpack Spear Books",
+	
+	Recipe_Pack_Strength_Skill_Books = "Pack Strength Books",
+	Recipe_Unpack_Strength_Skill_Books = "Unpack Strength Books",
+
+	Recipe_Pack_SmallBlunt_Skill_Books = "Pack Short Blunt Books",
+	Recipe_Unpack_SmallBlunt_Skill_Books = "Unpack Short Blunt Books",
+}

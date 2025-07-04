@@ -1,0 +1,151 @@
+ItemName_UA = {
+
+/** -----  ----- || SCAVENGING SKILL BOOKS PACK || -----  ----- **/
+
+	ItemName_Packing.pkScavenging = "Збірка книг про Збирачів",
+	
+/** -----  ----- || SCAVENGING SKILL BOOKS || -----  ----- **/
+	
+    ItemName_ScavengerSkill.ScavengerSkill_BookScavenging1 = "Збирання, Част. 1: Початківець",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging2 = "Збирання, Част. 2: Середній",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging3 = "Збирання, Част. 3: Просунутий",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging4 = "Збирання, Част. 4: Досвідчений",
+	ItemName_ScavengerSkill.ScavengerSkill_BookScavenging5 = "Збирання, Част. 5: Майстер",
+	
+/** -----  ----- || Driving SKILL BOOKS PACK || -----  ----- **/
+	
+	ItemName_Packing.pkDriving = "Збірка книг про Водіння",
+	
+/** -----  ----- || Driving SKILL BOOKS || -----  ----- **/
+
+    ItemName_DrivingSkill.DrivingSkill_BookDriving1 = "Водіння, Част. 1: Початківець",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving2 = "Водіння, Част. 2: Середній",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving3 = "Водіння, Част. 3: Просунутий",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving4 = "Водіння, Част. 4: Досвідчений",
+	ItemName_DrivingSkill.DrivingSkill_BookDriving5 = "Водіння, Част. 5: Майстер",
+
+/** -----  ----- || Lockpicking SKILL BOOKS PACK || -----  ----- **/
+	
+	ItemName_Packing.pkLockpicking = "Збірка книг про Відмикання замків",
+	
+/** -----  ----- || Lockpicking SKILL BOOKS || -----  ----- **/
+	
+	ItemName_LY_Skillbooks.BookLockpicking1 = "Відмикання замків, Част. 1: Початківець",
+	ItemName_LY_Skillbooks.BookLockpicking2 = "Відмикання замків, Част. 2: Середній",
+	ItemName_LY_Skillbooks.BookLockpicking3 = "Відмикання замків, Част. 3: Просунутий",
+	ItemName_LY_Skillbooks.BookLockpicking4 = "Відмикання замків, Част. 4: Досвідчений",
+	ItemName_LY_Skillbooks.BookLockpicking5 = "Відмикання замків, Част. 5: Майстер",
+	
+/** -----  ----- || ALBION'S LITERACY Mod SKILL BOOKS PACK || -----  ----- **/
+	
+	ItemName_Packing.pkSprinting = "Збірка книг про Біг",
+	ItemName_Packing.pkNimble = "Збірка книг про Спритність",
+	ItemName_Packing.pkAiming = "Збірка книг про Точність",
+	ItemName_Packing.pkLightfoot = "Збірка книг про Легкий крок",
+	ItemName_Packing.pkReloading = "Збірка книг про Перезарядження",
+	ItemName_Packing.pkBlunt = "Збірка книг про Довг. дробяще",
+	ItemName_Packing.pkMaintenance = "Збірка книг про Обслуговування",
+	ItemName_Packing.pkAxe = "Збірка книг про Сокири",
+	ItemName_Packing.pkSmallBlade = "Збірка книг про Корот. ріжуче",
+	ItemName_Packing.pkLongBlade = "Збірка книг про Довг. ріжуче",
+	ItemName_Packing.pkFitness = "Збірка книг про Фітнес",
+	ItemName_Packing.pkSneak = "Збірка книг про Скритність",
+	ItemName_Packing.pkSpear = "Збірка книг про Списи",
+	ItemName_Packing.pkStrength = "Збірка книг про Силу",
+	ItemName_Packing.pkSmallBlunt = "Збірка книг про Корот. дробяще",
+	
+/** -----  ----- || ALBION'S LITERACY Mod SKILL BOOKS || -----  ----- **/
+
+    ItemName_Literacy.LiteracyMag = "Навчіться читати!",
+
+    ItemName_Literacy.BookAiming1 = "Точність, Част. 1: Початківець",
+    ItemName_Literacy.BookAiming2 = "Точність, Част. 2: Середній",
+    ItemName_Literacy.BookAiming3 = "Точність, Част. 3: Просунутий",
+    ItemName_Literacy.BookAiming4 = "Точність, Част. 4: Досвідчений",
+    ItemName_Literacy.BookAiming5 = "Точність, Част. 5: Майстер",
+
+    ItemName_Literacy.BookReloading1 = "Перезарядження, Част. 1: Початківець",
+    ItemName_Literacy.BookReloading2 = "Перезарядження, Част. 2: Середній",
+    ItemName_Literacy.BookReloading3 = "Перезарядження, Част. 3: Просунутий",
+    ItemName_Literacy.BookReloading4 = "Перезарядження, Част. 4: Досвідчений",
+    ItemName_Literacy.BookReloading5 = "Перезарядження, Част. 5: Майстер",
+
+    ItemName_Literacy.BookStrength1 = "Сила, Част. 1: Початківець",
+    ItemName_Literacy.BookStrength2 = "Сила, Част. 2: Середній",
+    ItemName_Literacy.BookStrength3 = "Сила, Част. 3: Просунутий",
+    ItemName_Literacy.BookStrength4 = "Сила, Част. 4: Досвідчений",
+    ItemName_Literacy.BookStrength5 = "Сила, Част. 5: Майстер",
+
+    ItemName_Literacy.BookFitness1 = "Фітнес, Част. 1: Початківець",
+    ItemName_Literacy.BookFitness2 = "Фітнес, Част. 2: Середній",
+    ItemName_Literacy.BookFitness3 = "Фітнес, Част. 3: Просунутий",
+    ItemName_Literacy.BookFitness4 = "Фітнес, Част. 4: Досвідчений",
+    ItemName_Literacy.BookFitness5 = "Фітнес, Част. 5: Майстер",
+
+    ItemName_Literacy.BookLightfoot1 = "Легкий крок, Част. 1: Початківець",
+    ItemName_Literacy.BookLightfoot2 = "Легкий крок, Част. 2: Середній",
+    ItemName_Literacy.BookLightfoot3 = "Легкий крок, Част. 3: Просунутий",
+    ItemName_Literacy.BookLightfoot4 = "Легкий крок, Част. 4: Досвідчений",
+    ItemName_Literacy.BookLightfoot5 = "Легкий крок, Част. 5: Майстер",
+    
+    ItemName_Literacy.BookSprinting1 = "Біг, Част. 1: Початківець",
+    ItemName_Literacy.BookSprinting2 = "Біг, Част. 2: Середній",
+    ItemName_Literacy.BookSprinting3 = "Біг, Част. 3: Просунутий",
+    ItemName_Literacy.BookSprinting4 = "Біг, Част. 4: Досвідчений",
+    ItemName_Literacy.BookSprinting5 = "Біг, Част. 5: Майстер",
+        
+    ItemName_Literacy.BookSneak1 = ", Част. 1: Початківець",
+    ItemName_Literacy.BookSneak2 = ", Част. 2: Середній",
+    ItemName_Literacy.BookSneak3 = ", Част. 3: Просунутий",
+    ItemName_Literacy.BookSneak4 = ", Част. 4: Досвідчений",
+    ItemName_Literacy.BookSneak5 = ", Част. 5: Майстер",
+        
+    ItemName_Literacy.BookNimble1 = "Спритність, Част. 1: Початківець",
+    ItemName_Literacy.BookNimble2 = "Спритність, Част. 2: Середній",
+    ItemName_Literacy.BookNimble3 = "Спритність, Част. 3: Просунутий",
+    ItemName_Literacy.BookNimble4 = "Спритність, Част. 4: Досвідчений",
+    ItemName_Literacy.BookNimble5 = "Спритність, Част. 5: Майстер",
+        
+    ItemName_Literacy.BookMaintenance1 = "Обслуговування, Част. 1: Початківець",
+    ItemName_Literacy.BookMaintenance2 = "Обслуговування, Част. 2: Середній",
+    ItemName_Literacy.BookMaintenance3 = "Обслуговування, Част. 3: Просунутий",
+    ItemName_Literacy.BookMaintenance4 = "Обслуговування, Част. 4: Досвідчений",
+    ItemName_Literacy.BookMaintenance5 = "Обслуговування, Част. 5: Майстер",
+        
+    ItemName_Literacy.BookAxe1 = "Сокири, Част. 1: Початківець",
+    ItemName_Literacy.BookAxe2 = "Сокири, Част. 2: Середній",
+    ItemName_Literacy.BookAxe3 = "Сокири, Част. 3: Просунутий",
+    ItemName_Literacy.BookAxe4 = "Сокири, Част. 4: Досвідчений",
+    ItemName_Literacy.BookAxe5 = "Сокири, Част. 5: Майстер",
+        
+    ItemName_Literacy.BookSmallBlunt1 = "Корот. дробяще, Част. 1: Початківець",
+    ItemName_Literacy.BookSmallBlunt2 = "Корот. дробяще, Част. 2: Середній",
+    ItemName_Literacy.BookSmallBlunt3 = "Корот. дробяще, Част. 3: Просунутий",
+    ItemName_Literacy.BookSmallBlunt4 = "Корот. дробяще, Част. 4: Досвідчений",
+    ItemName_Literacy.BookSmallBlunt5 = "Корот. дробяще, Част. 5: Майстер",
+        
+    ItemName_Literacy.BookBlunt1 = "Довг. дробяще, Част. 1: Початківець",
+    ItemName_Literacy.BookBlunt2 = "Довг. дробяще, Част. 2: Середній",
+    ItemName_Literacy.BookBlunt3 = "Довг. дробяще, Част. 3: Просунутий",
+    ItemName_Literacy.BookBlunt4 = "Довг. дробяще, Част. 4: Досвідчений",
+    ItemName_Literacy.BookBlunt5 = "Довг. дробяще, Част. 5: Майстер",
+        
+    ItemName_Literacy.BookSmallBlade1 = "Корот. ріжуче, Част. 1: Початківець",
+    ItemName_Literacy.BookSmallBlade2 = "Корот. ріжуче, Част. 2: Середній",
+    ItemName_Literacy.BookSmallBlade3 = "Корот. ріжуче, Част. 3: Просунутий",
+    ItemName_Literacy.BookSmallBlade4 = "Корот. ріжуче, Част. 4: Досвідчений",
+    ItemName_Literacy.BookSmallBlade5 = "Корот. ріжуче, Част. 5: Майстер",
+        
+    ItemName_Literacy.BookLongBlade1 = "Довг. ріжуче, Част. 1: Початківець",
+    ItemName_Literacy.BookLongBlade2 = "Довг. ріжуче, Част. 2: Середній",
+    ItemName_Literacy.BookLongBlade3 = "Довг. ріжуче, Част. 3: Просунутий",
+    ItemName_Literacy.BookLongBlade4 = "Довг. ріжуче, Част. 4: Досвідчений",
+    ItemName_Literacy.BookLongBlade5 = "Довг. ріжуче, Част. 5: Майстер",
+        
+    ItemName_Literacy.BookSpear1 = "Списи, Част. 1: Початківець",
+    ItemName_Literacy.BookSpear2 = "Списи, Част. 2: Середній",
+    ItemName_Literacy.BookSpear3 = "Списи, Част. 3: Просунутий",
+    ItemName_Literacy.BookSpear4 = "Списи, Част. 4: Досвідчений",
+    ItemName_Literacy.BookSpear5 = "Списи, Част. 5: Майстер",
+}
+	

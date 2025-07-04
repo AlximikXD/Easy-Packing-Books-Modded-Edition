@@ -1,0 +1,33 @@
+ItemName_EN = {
+
+/** -----  ----- || SCAVENGING SKILL BOOKS || -----  ----- **/
+
+	ItemName_Packing.pkScavenging = "Scavenging Book Collection",
+	
+/** -----  ----- || Driving SKILL BOOKS || -----  ----- **/
+	
+	ItemName_Packing.pkDriving = "Driving Book Collection",
+	
+/** -----  ----- || LY Lockpicking SKILL BOOKS || -----  ----- **/
+	
+	ItemName_Packing.pkLockpicking = "Lockpicking Book Collection",
+	
+/** -----  ----- || ALBION'S LITERACY Mod SKILL BOOKS || -----  ----- **/
+	
+	ItemName_Packing.pkSprinting = "Sprinting Book Collection",
+	ItemName_Packing.pkNimble = "Nimble Book Collection",
+	ItemName_Packing.pkAiming = "Aiming Book Collection",
+	ItemName_Packing.pkLightfoot = "Lightfoot Book Collection",
+	ItemName_Packing.pkReloading = "Reloading Book Collection",
+	ItemName_Packing.pkBlunt = "Short Blunt Book Collection",
+	ItemName_Packing.pkMaintenance = "Maintenance Book Collection",
+	ItemName_Packing.pkAxe = "Axe Book Collection",
+	ItemName_Packing.pkSmallBlade = "Short Blade Book Collection",
+	ItemName_Packing.pkLongBlade = "Long Blade Book Collection",
+	ItemName_Packing.pkFitness = "Fitness Book Collection",
+	ItemName_Packing.pkSneak = "Sneak Book Collection",
+	ItemName_Packing.pkSpear = "Spear Book Collection",
+	ItemName_Packing.pkStrength = "Strength Book Collection",
+	ItemName_Packing.pkSmallBlunt = "Short Blunt Book Collection",
+}
+	

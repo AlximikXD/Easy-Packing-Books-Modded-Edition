@@ -1,0 +1,722 @@
+module Packing
+{
+	imports
+	{
+		Base,
+	}
+	
+	/******************************  Scavenging Skill Fixed Stack BOOKS  ******************************/
+	
+	item pkScavenging
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Scavenging Books,
+		Icon				= PackScavengingBook,
+		WorldStaticModel	= PackScavengingBook,
+	}	
+	
+	/******************************  Scavenging Skill Fixed Recipe BOOKS  ******************************/
+
+	recipe Pack Scavenging Skill Books
+	{
+		ScavengerSkill.ScavengerSkill_BookScavenging1,
+		ScavengerSkill.ScavengerSkill_BookScavenging2,
+		ScavengerSkill.ScavengerSkill_BookScavenging3,
+		ScavengerSkill.ScavengerSkill_BookScavenging4,
+		ScavengerSkill.ScavengerSkill_BookScavenging5,
+		
+		Result				:pkScavenging,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Scavenging Skill Books
+	{
+		pkScavenging,
+		
+		Result				:ScavengerSkill.ScavengerSkill_BookScavenging1,
+		OnCreate			:Recipe.OnCreate.UnpackScavengingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	/******************************  Scavenging Skill Fixed Model BOOKS  ******************************/
+	
+	model PackScavengingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackScavengingBook,
+		scale = 0.5,
+	}
+	
+	/******************************  Driving Skill Stack BOOKS  ******************************/
+	
+	item pkDriving
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Driving Books,
+		Icon				= PackDrivingBook,
+		WorldStaticModel	= PackDrivingBook,
+	}	
+	
+	/******************************  Driving Skill Recipe BOOKS  ******************************/
+
+	recipe Pack Driving Skill Books
+	{
+		DrivingSkill.DrivingSkill_BookDriving1,
+		DrivingSkill.DrivingSkill_BookDriving2,
+		DrivingSkill.DrivingSkill_BookDriving3,
+		DrivingSkill.DrivingSkill_BookDriving4,
+		DrivingSkill.DrivingSkill_BookDriving5,
+		
+		Result				:pkDriving,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Driving Skill Books
+	{
+		pkDriving,
+		
+		Result				:DrivingSkill.DrivingSkill_BookDriving1,
+		OnCreate			:Recipe.OnCreate.UnpackDrivingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	/******************************  Driving Skill Model BOOKS  ******************************/
+	
+	model PackDrivingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackDrivingBook,
+		scale = 0.5,
+	}
+	
+	/****************************** LY Lockpicking Skill Stack BOOKS  ******************************/
+	
+	item pkLockpicking
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Lockpicking Books,
+		Icon				= PackLockpickingBook,
+		WorldStaticModel	= PackLockpickingBook,
+	}	
+	
+	/****************************** LY Lockpicking Skill Recipe BOOKS  ******************************/
+
+	recipe Pack Lockpicking Skill Books
+	{
+		LY_Skillbooks.BookLockpicking1,
+		LY_Skillbooks.BookLockpicking2,
+		LY_Skillbooks.BookLockpicking3,
+		LY_Skillbooks.BookLockpicking4,
+		LY_Skillbooks.BookLockpicking5,
+		
+		Result				:pkLockpicking,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Lockpicking Skill Books
+	{
+		pkLockpicking,
+		
+		Result				:LY_Skillbooks.BookLockpicking1,
+		OnCreate			:Recipe.OnCreate.UnpackLockpickingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	/******************************  LY Lockpicking Skill Model BOOKS  ******************************/
+	
+	model PackLockpickingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackLockpickingBook,
+		scale = 0.5,
+	}
+	
+	/****************************** Albion's Literacy Mod Skill Stack BOOKS  ******************************/
+	
+	item pkSprinting
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Sprinting Books,
+		Icon				= PackSprintingBook,
+		WorldStaticModel	= PackSprintingBook,
+	}	
+
+	item pkNimble
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Nimble Books,
+		Icon				= PackNimbleBook,
+		WorldStaticModel	= PackNimbleBook,
+	}	
+
+	item pkAiming
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Aiming Books,
+		Icon				= PackAimingBook,
+		WorldStaticModel	= PackAimingBook,
+	}	
+	
+	item pkLightfoot
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Lightfoot Books,
+		Icon				= PackLightfootBook,
+		WorldStaticModel	= PackLightfootBook,
+	}
+
+	item pkReloading
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Reloading Books,
+		Icon				= PackReloadingBook,
+		WorldStaticModel	= PackReloadingBook,
+	}	
+
+	item pkBlunt
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Blunt Books,
+		Icon				= PackLongBluntBook,
+		WorldStaticModel	= PackLongBluntBook,
+	}	
+
+	item pkMaintenance
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Maintenance Books,
+		Icon				= PackMaintenanceBook,
+		WorldStaticModel	= PackMaintenanceBook,
+	}	
+
+	item pkAxe
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Axe Books,
+		Icon				= PackAxeBook,
+		WorldStaticModel	= PackAxeBook,
+	}	
+
+	item pkSmallBlade
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of SmallBlade Books,
+		Icon				= PackSmallBladeBook,
+		WorldStaticModel	= PackSmallBladeBook,
+	}	
+
+	item pkLongBlade
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of LongBlade Books,
+		Icon				= PackLongBladeBook,
+		WorldStaticModel	= PackLongBladeBook,
+	}	
+
+	item pkFitness
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Fitness Books,
+		Icon				= PackFitnessBook,
+		WorldStaticModel	= PackFitnessBook,
+	}	
+
+	item pkSneak
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Sneak Books,
+		Icon				= PackSneakBook,
+		WorldStaticModel	= PackSneakBook,
+	}	
+
+	item pkSpear
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Spear Books,
+		Icon				= PackSpearBook,
+		WorldStaticModel	= PackSpearBook,
+	}	
+
+	item pkStrength
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of Strength Books,
+		Icon				= PackStrengthBook,
+		WorldStaticModel	= PackStrengthBook,
+	}		
+	
+	item pkSmallBlunt
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Normal,
+		DisplayName			= Bundle of SmallBlunt Books,
+		Icon				= PackSmallBluntBook,
+		WorldStaticModel	= PackSmallBluntBook,
+	}
+	
+	/****************************** Albion's Literacy Mod Skill Recipe BOOKS  ******************************/
+
+	recipe Pack Sprinting Skill Books
+	{
+		Literacy.BookSprinting1,
+		Literacy.BookSprinting2,
+		Literacy.BookSprinting3,
+		Literacy.BookSprinting4,
+		Literacy.BookSprinting5,
+		
+		Result				:pkSprinting,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Sprinting Skill Books
+	{
+		pkSprinting,
+		
+		Result				:Literacy.BookSprinting1,
+		OnCreate			:Recipe.OnCreate.UnpackSprintingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Nimble Skill Books
+	{
+		Literacy.BookNimble1,
+		Literacy.BookNimble2,
+		Literacy.BookNimble3,
+		Literacy.BookNimble4,
+		Literacy.BookNimble5,
+		
+		Result				:pkNimble,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Nimble Skill Books
+	{
+		pkNimble,
+		
+		Result				:Literacy.BookNimble1,
+		OnCreate			:Recipe.OnCreate.UnpackNimbleSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Aiming Skill Books
+	{
+		Literacy.BookAiming1,
+		Literacy.BookAiming2,
+		Literacy.BookAiming3,
+		Literacy.BookAiming4,
+		Literacy.BookAiming5,
+		
+		Result				:pkAiming,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Aiming Skill Books
+	{
+		pkAiming,
+		
+		Result				:Literacy.BookAiming1,
+		OnCreate			:Recipe.OnCreate.UnpackAimingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Lightfoot Skill Books
+	{
+		Literacy.BookLightfoot1,
+		Literacy.BookLightfoot2,
+		Literacy.BookLightfoot3,
+		Literacy.BookLightfoot4,
+		Literacy.BookLightfoot5,
+		
+		Result				:pkLightfoot,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Lightfoot Skill Books
+	{
+		pkLightfoot,
+		
+		Result				:Literacy.BookLightfoot1,
+		OnCreate			:Recipe.OnCreate.UnpackLightfootSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Reloading Skill Books
+	{
+		Literacy.BookReloading1,
+		Literacy.BookReloading2,
+		Literacy.BookReloading3,
+		Literacy.BookReloading4,
+		Literacy.BookReloading5,
+		
+		Result				:pkReloading,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Reloading Skill Books
+	{
+		pkReloading,
+		
+		Result				:Literacy.BookReloading1,
+		OnCreate			:Recipe.OnCreate.UnpackReloadingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Blunt Skill Books
+	{
+		Literacy.BookBlunt1,
+		Literacy.BookBlunt2,
+		Literacy.BookBlunt3,
+		Literacy.BookBlunt4,
+		Literacy.BookBlunt5,
+		
+		Result				:pkBlunt,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Blunt Skill Books
+	{
+		pkBlunt,
+		
+		Result				:Literacy.BookBlunt1,
+		OnCreate			:Recipe.OnCreate.UnpackBluntSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Axe Skill Books
+	{
+		Literacy.BookAxe1,
+		Literacy.BookAxe2,
+		Literacy.BookAxe3,
+		Literacy.BookAxe4,
+		Literacy.BookAxe5,
+		
+		Result				:pkAxe,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Axe Skill Books
+	{
+		pkAxe,
+		
+		Result				:Literacy.BookAxe1,
+		OnCreate			:Recipe.OnCreate.UnpackAxeSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack SmallBlade Skill Books
+	{
+		Literacy.BookSmallBlade1,
+		Literacy.BookSmallBlade2,
+		Literacy.BookSmallBlade3,
+		Literacy.BookSmallBlade4,
+		Literacy.BookSmallBlade5,
+		
+		Result				:pkSmallBlade,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack SmallBlade Skill Books
+	{
+		pkSmallBlade,
+		
+		Result				:Literacy.BookSmallBlade1,
+		OnCreate			:Recipe.OnCreate.UnpackSmallBladeSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack LongBlade Skill Books
+	{
+		Literacy.BookLongBlade1,
+		Literacy.BookLongBlade2,
+		Literacy.BookLongBlade3,
+		Literacy.BookLongBlade4,
+		Literacy.BookLongBlade5,
+		
+		Result				:pkLongBlade,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack LongBlade Skill Books
+	{
+		pkLongBlade,
+		
+		Result				:Literacy.BookLongBlade1,
+		OnCreate			:Recipe.OnCreate.UnpackLongBladeSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Fitness Skill Books
+	{
+		Literacy.BookFitness1,
+		Literacy.BookFitness2,
+		Literacy.BookFitness3,
+		Literacy.BookFitness4,
+		Literacy.BookFitness5,
+		
+		Result				:pkFitness,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Fitness Skill Books
+	{
+		pkFitness,
+		
+		Result				:Literacy.BookFitness1,
+		OnCreate			:Recipe.OnCreate.UnpackFitnessSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Sneak Skill Books
+	{
+		Literacy.BookSneak1,
+		Literacy.BookSneak2,
+		Literacy.BookSneak3,
+		Literacy.BookSneak4,
+		Literacy.BookSneak5,
+		
+		Result				:pkSneak,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Sneak Skill Books
+	{
+		pkSneak,
+		
+		Result				:Literacy.BookSneak1,
+		OnCreate			:Recipe.OnCreate.UnpackSneakSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Spear Skill Books
+	{
+		Literacy.BookSpear1,
+		Literacy.BookSpear2,
+		Literacy.BookSpear3,
+		Literacy.BookSpear4,
+		Literacy.BookSpear5,
+		
+		Result				:pkSpear,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Spear Skill Books
+	{
+		pkSpear,
+		
+		Result				:Literacy.BookSpear1,
+		OnCreate			:Recipe.OnCreate.UnpackSpearSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Strength Skill Books
+	{
+		Literacy.BookStrength1,
+		Literacy.BookStrength2,
+		Literacy.BookStrength3,
+		Literacy.BookStrength4,
+		Literacy.BookStrength5,
+		
+		Result				:pkStrength,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Strength Skill Books
+	{
+		pkStrength,
+		
+		Result				:Literacy.BookStrength1,
+		OnCreate			:Recipe.OnCreate.UnpackStrengthSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack SmallBlunt Skill Books
+	{
+		Literacy.BookSmallBlunt1,
+		Literacy.BookSmallBlunt2,
+		Literacy.BookSmallBlunt3,
+		Literacy.BookSmallBlunt4,
+		Literacy.BookSmallBlunt5,
+		
+		Result				:pkSmallBlunt,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack SmallBlunt Skill Books
+	{
+		pkSmallBlunt,
+		
+		Result				:Literacy.BookSmallBlunt1,
+		OnCreate			:Recipe.OnCreate.UnpackSmallBluntSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	/******************************  Albion's Literacy Mod Skill Model BOOKS  ******************************/
+	
+	model PackSprintingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackSprintingBook,
+		scale = 0.5,
+	}
+	
+	model PackNimbleBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackNimbleBook,
+		scale = 0.5,
+	}
+	
+	model PackAimingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackAimingBook,
+		scale = 0.5,
+	}
+	
+	model PackLightfootBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackLightfootBook,
+		scale = 0.5,
+	}
+
+	model PackReloadingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackReloadingBook,
+		scale = 0.5,
+	}
+
+	model PackLongBluntBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackLongBluntBook,
+		scale = 0.5,
+	}
+
+	model PackAxeBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackAxeBook,
+		scale = 0.5,
+	}
+
+	model PackSmallBladeBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackSmallBladeBook,
+		scale = 0.5,
+	}
+
+	model PackLongBladeBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackLongBladeBook,
+		scale = 0.5,
+	}
+
+	model PackFitnessBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackFitnessBook,
+		scale = 0.5,
+	}
+
+	model PackSneakBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackSneakBook,
+		scale = 0.5,
+	}
+
+	model PackSpearBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackSpearBook,
+		scale = 0.5,
+	}
+
+	model PackStrengthBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackStrengthBook,
+		scale = 0.5,
+	}
+
+	model PackSmallBluntBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackSmallBluntBook,
+		scale = 0.5,
+	}	
+	
+}
