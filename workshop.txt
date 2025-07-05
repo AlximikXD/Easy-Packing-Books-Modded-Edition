@@ -1,36 +1,6 @@
 version=1
-id=2960400616
-title=[B41/42]NieR Replicant/Automata/Drakengard 3 Lifestyle Addon
-description=[h1]Addon for the Lifestyle mod that adds OSTs from the Nier/Drakengard games.[/h1]
-description=
-description=[u][h1]You need to enable one of the lifestyle mod [B41/42] versions for the addon to work correctly[/h1][/u]
-description=⠀⠀⠀⠀⠀[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2997342681] [img]https://i.imgur.com/mpI2l9h.jpeg[/img] [/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858] description=[img]https://i.imgur.com/fJMNWLA.jpeg[/img] [/url]
-description=
-description=
-description=[img]https://i.imgur.com/T5bW0j4.jpeg[/img]
-description=
-description=
-description=
-description=[h1]Credits and special thanks:[/h1]
-description=
-description=[code][b]Lifestyle mod developers: Ross, Angry, Dhireal
-description=
-description=Original Music: Keiichi Okabe
-description=
-description=TAB: Cecil Chau (GuitarSVD)[/b][/code]
-description=
-description=
-description=[h1]For changelogs please visit:[/h1]
-description=[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2960400616]CHANGE NOTES[/url].
-description=
-description=[h1]Technical Information:[/h1]
-description=[code]Workshop ID: 2960400616
-description=Mod ID: NieR Replicant/Automata/Drakengard 3 Lifestyle Addon
-description=Build 41/42
-description=Tags Build 41 / Build 42 / Silly/Fun[/code]
-description=
-description=[url=https://github.com/AlximikXD/NieR-Replicant-Automata-Drakengard-Music-Addon/issues] [img]https://i.postimg.cc/9fZv2VVj/Github.png[/img] [/url]
-description=
-description=[url=https://ko-fi.com/alximik] [img]https://i.postimg.cc/50v9DDKH/Fo-fi.png[/img] [/url]
-tags=Build 41;Build 42;Silly/Fun
-visibility=public
+id=3517315668
+title=Easy Packing Books Modded edition
+description=W.I.P.
+tags=Build 41;Items;Literature
+visibility=unlisted

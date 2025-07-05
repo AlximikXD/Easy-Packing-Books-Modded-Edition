@@ -1,0 +1,11 @@
+name=Easy Packing Books Modded edition Tetris Support
+id=Easy Packing Books Modded edition Tetris Support
+description= W.I.P.
+poster=preview.png
+icon=icon.png
+author=Alximik
+modversion=0.0.0.80
+multiplayer=true
+url=https://ko-fi.com/alximik
+require=Easy Packing Books Modded edition
+require=INVENTORY_TETRIS
