@@ -1,6 +1,6 @@
 version=1
 id=3517315668
-title=Easy Packing Books Modded edition
+title=Easy Packing Books: Modded Edition
 description=W.I.P.
 tags=Build 41;Items;Literature
 visibility=unlisted

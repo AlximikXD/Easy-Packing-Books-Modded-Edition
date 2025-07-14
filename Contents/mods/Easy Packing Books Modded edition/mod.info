@@ -1,9 +1,9 @@
-name=Easy Packing Books Modded edition TEST
-id=Easy Packing Books Modded edition TEST
-description= W.I.P.
+name=Easy Packing Books: Modded Edition TEST
+id=Easy Packing Books: Modded Edition TEST
+description= <H1> <CENTER></CENTER> </H1> <LINE> <LEFT> <RGB:1,1,1> A mod that allows you to pack mod skill books and crafting journals. <LINE> <H2> This mod includes: </H2> <LINE> <RGB:1,1,1> - The ability to pack all mod skill books supported by this mod <LINE> <RGB:1,1,1> - The ability to pack most mod crafting journals supported by this mod <RGB:1,1,1> <LINE> <LEFT> <RGB:0.8,0.8,0.8> For a more detailed description, please visit the mod's workshop page</LEFT> <LINE> <CENTER> <H3> <RGB:0,0.6,1> Author: Alximik </H3> </CENTER>
 poster=preview.png
 icon=icon.png
 author=Alximik
-modversion=0.0.0.80
+modversion=1.0.0
 multiplayer=true
 url=https://ko-fi.com/alximik
