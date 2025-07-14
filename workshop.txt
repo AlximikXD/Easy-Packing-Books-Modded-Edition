@@ -1,6 +1,74 @@
 version=1
 id=3517315668
-title=Easy Packing Books Modded edition
-description=W.I.P.
+title=Easy Packing Books: Modded Edition
+description=[h1]A mod that allows you to pack mod skill books and crafting journals.[/h1]
+description=
+description=[hr][/hr]
+description=
+description=[h1]This mod includes:[/h1]
+description=[list]
+description=    [*]The ability to pack all mod skill books supported by this mod
+description=    [*]The ability to pack most mod crafting journals supported by this mod
+description=[/list]
+description=
+description=[hr][/hr]
+description=
+description=[h1]List of mods:[/h1]
+description=[h3]Hint:[/h3]
+description=[code]âœ… - Full support (Date of supported version of the mod)
+description=ðŸš§ - In progress
+description=ðŸ•“ - Waiting for its time
+description=â?Œ - Will not be implemented[/code]
+description=[table equalcells=1 noborder=1]
+description=    [tr]
+description=        [th][h1]Mod[/h1][/th]
+description=        [th][h1]Books[/h1][/th]
+description=        [th][h1]journals[/h1][/th]
+description=        [th][h1]Date[/h1][/th]
+description=    [/tr]
+description=    [tr]
+description=        [td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2812583527]Albion's Literacy Mod - Learn to Read, Read Faster[/url][/td]
+description=        [td][h1]âœ…[/h1][/td]
+description=        [td][h1]â?Œ[/h1][/td]
+description=        [td]12 Nov, 2024 @ 2:08am[/td]
+description=    [/tr]
+description=    [tr]
+description=        [td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2721945297]Driving Skill[/url][/td]
+description=        [td][h1]âœ…[/h1][/td]
+description=        [td][h1]â?Œ[/h1][/td]
+description=        [td]5 Feb, 2022 @ 3:41pm [/td]
+description=    [/tr]
+description=    [tr]
+description=        [td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2903135820]Scavenging Skill (Fixed)[/url][/td]
+description=        [td][h1]âœ…[/h1][/td]
+description=        [td][h1]â?Œ[/h1][/td]
+description=        [td]16 Aug, 2023 @ 2:47pm [/td]
+description=    [/tr]
+description=    [tr]
+description=        [td][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2929123989]zRe Better Lockpicking[/url][/td]
+description=        [td][h1]âœ…[/h1][/td]
+description=        [td][h1]â?Œ[/h1][/td]
+description=        [td]23 Jul, 2024 @ 4:37am [/td]
+description=    [/tr]
+description=[/table]
+description=
+description=[hr][/hr]
+description=
+description=[h1]Technical Information:[/h1]
+description=[code]Workshop ID: 3517315668
+description=Mod ID: Easy Packing Books: Modded Edition
+description=Mod ID: Easy Packing Books: Modded Edition (Inventory Tetris  Support)[/code]
+description=
+description=[hr][/hr]
+description=
+description=[url=https://steamcommunity.com/id/AlximikXD/myworkshopfiles/?appid=108600] [img]https://i.postimg.cc/Y99HscxT/My-Project-Zomboid-Workshop.png[/img] [/url]
+description=
+description=[url=https://steamcommunity.com/id/AlximikXD/myworkshopfiles/] [img]https://i.postimg.cc/fbg9FsN9/My-Workshop.png[/img] [/url]
+description=
+description=[url=https://github.com/AlximikXD/Easy-Packing-Books-Modded-Edition/issues] [img]https://i.postimg.cc/9fZv2VVj/Github.png[/img] [/url]
+description=
+description=[url=https://ko-fi.com/alximik] [img]https://i.postimg.cc/50v9DDKH/Fo-fi.png[/img] [/url]
+description=
+description=[hr][/hr]
 tags=Build 41;Items;Literature
-visibility=unlisted
+visibility=public
