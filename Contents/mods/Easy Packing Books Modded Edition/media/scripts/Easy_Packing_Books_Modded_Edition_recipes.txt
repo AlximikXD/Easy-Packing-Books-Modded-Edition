@@ -1,0 +1,877 @@
+module Packing
+{
+	imports
+	{
+		Base,
+	}
+	
+	/******************************  Scavenging Skill Fixed Recipe BOOKS  ******************************/
+
+	recipe Pack Scavenging Skill Books
+	{
+		ScavengerSkill.ScavengerSkill_BookScavenging1,
+		ScavengerSkill.ScavengerSkill_BookScavenging2,
+		ScavengerSkill.ScavengerSkill_BookScavenging3,
+		ScavengerSkill.ScavengerSkill_BookScavenging4,
+		ScavengerSkill.ScavengerSkill_BookScavenging5,
+		
+		Result				:pkScavenging,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Scavenging Skill Books
+	{
+		pkScavenging,
+		
+		Result				:ScavengerSkill.ScavengerSkill_BookScavenging1,
+		OnCreate			:Recipe.OnCreate.UnpackScavengingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	/******************************  Driving Skill Recipe BOOKS  ******************************/
+
+	recipe Pack Driving Skill Books
+	{
+		DrivingSkill.DrivingSkill_BookDriving1,
+		DrivingSkill.DrivingSkill_BookDriving2,
+		DrivingSkill.DrivingSkill_BookDriving3,
+		DrivingSkill.DrivingSkill_BookDriving4,
+		DrivingSkill.DrivingSkill_BookDriving5,
+		
+		Result				:pkDriving,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Driving Skill Books
+	{
+		pkDriving,
+		
+		Result				:DrivingSkill.DrivingSkill_BookDriving1,
+		OnCreate			:Recipe.OnCreate.UnpackDrivingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	/****************************** Albion's Literacy Mod Skill Recipe BOOKS  ******************************/
+
+	recipe Pack Maintenance Skill Books
+	{
+		Literacy.BookMaintenance1,
+		Literacy.BookMaintenance2,
+		Literacy.BookMaintenance3,
+		Literacy.BookMaintenance4,
+		Literacy.BookMaintenance5,
+		
+		Result				:pkALMaintenance,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Maintenance Skill Books
+	{
+		pkALMaintenance,
+		
+		Result				:Literacy.BookMaintenance1,
+		OnCreate			:Recipe.OnCreate.UnpackALMaintenanceSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+
+	recipe Pack Sprinting Skill Books
+	{
+		Literacy.BookSprinting1,
+		Literacy.BookSprinting2,
+		Literacy.BookSprinting3,
+		Literacy.BookSprinting4,
+		Literacy.BookSprinting5,
+		
+		Result				:pkALSprinting,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Sprinting Skill Books
+	{
+		pkALSprinting,
+		
+		Result				:Literacy.BookSprinting1,
+		OnCreate			:Recipe.OnCreate.UnpackALSprintingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Nimble Skill Books
+	{
+		Literacy.BookNimble1,
+		Literacy.BookNimble2,
+		Literacy.BookNimble3,
+		Literacy.BookNimble4,
+		Literacy.BookNimble5,
+		
+		Result				:pkALNimble,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Nimble Skill Books
+	{
+		pkALNimble,
+		
+		Result				:Literacy.BookNimble1,
+		OnCreate			:Recipe.OnCreate.UnpackALNimbleSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Aiming Skill Books
+	{
+		Literacy.BookAiming1,
+		Literacy.BookAiming2,
+		Literacy.BookAiming3,
+		Literacy.BookAiming4,
+		Literacy.BookAiming5,
+		
+		Result				:pkALAiming,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Aiming Skill Books
+	{
+		pkALAiming,
+		
+		Result				:Literacy.BookAiming1,
+		OnCreate			:Recipe.OnCreate.UnpackALAimingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Lightfoot Skill Books
+	{
+		Literacy.BookLightfoot1,
+		Literacy.BookLightfoot2,
+		Literacy.BookLightfoot3,
+		Literacy.BookLightfoot4,
+		Literacy.BookLightfoot5,
+		
+		Result				:pkALLightfoot,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Lightfoot Skill Books
+	{
+		pkALLightfoot,
+		
+		Result				:Literacy.BookLightfoot1,
+		OnCreate			:Recipe.OnCreate.UnpackALLightfootSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Reloading Skill Books
+	{
+		Literacy.BookReloading1,
+		Literacy.BookReloading2,
+		Literacy.BookReloading3,
+		Literacy.BookReloading4,
+		Literacy.BookReloading5,
+		
+		Result				:pkALReloading,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Reloading Skill Books
+	{
+		pkALReloading,
+		
+		Result				:Literacy.BookReloading1,
+		OnCreate			:Recipe.OnCreate.UnpackALReloadingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Blunt Skill Books
+	{
+		Literacy.BookBlunt1,
+		Literacy.BookBlunt2,
+		Literacy.BookBlunt3,
+		Literacy.BookBlunt4,
+		Literacy.BookBlunt5,
+		
+		Result				:pkALBlunt,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Blunt Skill Books
+	{
+		pkALBlunt,
+		
+		Result				:Literacy.BookBlunt1,
+		OnCreate			:Recipe.OnCreate.UnpackALBluntSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Axe Skill Books
+	{
+		Literacy.BookAxe1,
+		Literacy.BookAxe2,
+		Literacy.BookAxe3,
+		Literacy.BookAxe4,
+		Literacy.BookAxe5,
+		
+		Result				:pkALAxe,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Axe Skill Books
+	{
+		pkALAxe,
+		
+		Result				:Literacy.BookAxe1,
+		OnCreate			:Recipe.OnCreate.UnpackALAxeSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack SmallBlade Skill Books
+	{
+		Literacy.BookSmallBlade1,
+		Literacy.BookSmallBlade2,
+		Literacy.BookSmallBlade3,
+		Literacy.BookSmallBlade4,
+		Literacy.BookSmallBlade5,
+		
+		Result				:pkALSmallBlade,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack SmallBlade Skill Books
+	{
+		pkALSmallBlade,
+		
+		Result				:Literacy.BookSmallBlade1,
+		OnCreate			:Recipe.OnCreate.UnpackALSmallBladeSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack LongBlade Skill Books
+	{
+		Literacy.BookLongBlade1,
+		Literacy.BookLongBlade2,
+		Literacy.BookLongBlade3,
+		Literacy.BookLongBlade4,
+		Literacy.BookLongBlade5,
+		
+		Result				:pkALLongBlade,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack LongBlade Skill Books
+	{
+		pkALLongBlade,
+		
+		Result				:Literacy.BookLongBlade1,
+		OnCreate			:Recipe.OnCreate.UnpackALLongBladeSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Fitness Skill Books
+	{
+		Literacy.BookFitness1,
+		Literacy.BookFitness2,
+		Literacy.BookFitness3,
+		Literacy.BookFitness4,
+		Literacy.BookFitness5,
+		
+		Result				:pkALFitness,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Fitness Skill Books
+	{
+		pkALFitness,
+		
+		Result				:Literacy.BookFitness1,
+		OnCreate			:Recipe.OnCreate.UnpackALFitnessSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Sneak Skill Books
+	{
+		Literacy.BookSneak1,
+		Literacy.BookSneak2,
+		Literacy.BookSneak3,
+		Literacy.BookSneak4,
+		Literacy.BookSneak5,
+		
+		Result				:pkALSneak,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Sneak Skill Books
+	{
+		pkALSneak,
+		
+		Result				:Literacy.BookSneak1,
+		OnCreate			:Recipe.OnCreate.UnpackALSneakSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Spear Skill Books
+	{
+		Literacy.BookSpear1,
+		Literacy.BookSpear2,
+		Literacy.BookSpear3,
+		Literacy.BookSpear4,
+		Literacy.BookSpear5,
+		
+		Result				:pkALSpear,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Spear Skill Books
+	{
+		pkALSpear,
+		
+		Result				:Literacy.BookSpear1,
+		OnCreate			:Recipe.OnCreate.UnpackALSpearSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Strength Skill Books
+	{
+		Literacy.BookStrength1,
+		Literacy.BookStrength2,
+		Literacy.BookStrength3,
+		Literacy.BookStrength4,
+		Literacy.BookStrength5,
+		
+		Result				:pkALStrength,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Strength Skill Books
+	{
+		pkALStrength,
+		
+		Result				:Literacy.BookStrength1,
+		OnCreate			:Recipe.OnCreate.UnpackALStrengthSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack SmallBlunt Skill Books
+	{
+		Literacy.BookSmallBlunt1,
+		Literacy.BookSmallBlunt2,
+		Literacy.BookSmallBlunt3,
+		Literacy.BookSmallBlunt4,
+		Literacy.BookSmallBlunt5,
+		
+		Result				:pkALSmallBlunt,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack SmallBlunt Skill Books
+	{
+		pkALSmallBlunt,
+		
+		Result				:Literacy.BookSmallBlunt1,
+		OnCreate			:Recipe.OnCreate.UnpackALSmallBluntSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	/****************************** LittleYoschi's Skillbooks Recipe BOOKS  ******************************/
+
+	recipe Pack Lockpicking Skill Books
+	{
+		LY_Skillbooks.BookLockpicking1,
+		LY_Skillbooks.BookLockpicking2,
+		LY_Skillbooks.BookLockpicking3,
+		LY_Skillbooks.BookLockpicking4,
+		LY_Skillbooks.BookLockpicking5,
+		
+		Result				:pkLYLockpicking,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Lockpicking Skill Books
+	{
+		pkLYLockpicking,
+		
+		Result				:LY_Skillbooks.BookLockpicking1,
+		OnCreate			:Recipe.OnCreate.UnpackLYLockpickingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Sprinting Skill Books
+	{
+		LY_Skillbooks.BookSprinting1,
+		LY_Skillbooks.BookSprinting2,
+		LY_Skillbooks.BookSprinting3,
+		LY_Skillbooks.BookSprinting4,
+		LY_Skillbooks.BookSprinting5,
+		
+		Result				:pkLYSprinting,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Sprinting Skill Books
+	{
+		pkLYSprinting,
+		
+		Result				:LY_Skillbooks.BookSprinting1,
+		OnCreate			:Recipe.OnCreate.UnpackLYSprintingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Lightfoot Skill Books
+	{
+		LY_Skillbooks.BookLightfooted1,
+		LY_Skillbooks.BookLightfooted2,
+		LY_Skillbooks.BookLightfooted3,
+		LY_Skillbooks.BookLightfooted4,
+		LY_Skillbooks.BookLightfooted5,
+		
+		Result				:pkLYLightfoot,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Lightfoot Skill Books
+	{
+		pkLYLightfoot,
+		
+		Result				:LY_Skillbooks.BookLightfooted1,
+		OnCreate			:Recipe.OnCreate.UnpackLYLightfootSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Nimble Skill Books
+	{
+		LY_Skillbooks.BookNimble1,
+		LY_Skillbooks.BookNimble2,
+		LY_Skillbooks.BookNimble3,
+		LY_Skillbooks.BookNimble4,
+		LY_Skillbooks.BookNimble5,
+		
+		Result				:pkLYNimble,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Nimble Skill Books
+	{
+		pkLYNimble,
+		
+		Result				:LY_Skillbooks.BookNimble1,
+		OnCreate			:Recipe.OnCreate.UnpackLYNimbleSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Sneaking Skill Books
+	{
+		LY_Skillbooks.BookSneaking1,
+		LY_Skillbooks.BookSneaking2,
+		LY_Skillbooks.BookSneaking3,
+		LY_Skillbooks.BookSneaking4,
+		LY_Skillbooks.BookSneaking5,
+		
+		Result				:pkLYSneak,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Sneaking Skill Books
+	{
+		pkLYSneak,
+		
+		Result				:LY_Skillbooks.BookSneaking1,
+		OnCreate			:Recipe.OnCreate.UnpackLYSneakingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Aiming Skill Books
+	{
+		LY_Skillbooks.BookAiming1,
+		LY_Skillbooks.BookAiming2,
+		LY_Skillbooks.BookAiming3,
+		LY_Skillbooks.BookAiming4,
+		LY_Skillbooks.BookAiming5,
+		
+		Result				:pkLYAiming,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Aiming Skill Books
+	{
+		pkLYAiming,
+		
+		Result				:LY_Skillbooks.BookAiming1,
+		OnCreate			:Recipe.OnCreate.UnpackLYAimingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Reloading Skill Books
+	{
+		LY_Skillbooks.BookReloading1,
+		LY_Skillbooks.BookReloading2,
+		LY_Skillbooks.BookReloading3,
+		LY_Skillbooks.BookReloading4,
+		LY_Skillbooks.BookReloading5,
+		
+		Result				:pkLYReloading,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Reloading Skill Books
+	{
+		pkLYReloading,
+		
+		Result				:LY_Skillbooks.BookReloading1,
+		OnCreate			:Recipe.OnCreate.UnpackLYReloadingSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Maintenance Skill Books
+	{
+		LY_Skillbooks.BookMaintenance1,
+		LY_Skillbooks.BookMaintenance2,
+		LY_Skillbooks.BookMaintenance3,
+		LY_Skillbooks.BookMaintenance4,
+		LY_Skillbooks.BookMaintenance5,
+		
+		Result				:pkLYMaintenance,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Maintenance Skill Books
+	{
+		pkLYMaintenance,
+		
+		Result				:LY_Skillbooks.BookMaintenance1,
+		OnCreate			:Recipe.OnCreate.UnpackLYMaintenanceSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Spear Skill Books
+	{
+		LY_Skillbooks.BookSpear1,
+		LY_Skillbooks.BookSpear2,
+		LY_Skillbooks.BookSpear3,
+		LY_Skillbooks.BookSpear4,
+		LY_Skillbooks.BookSpear5,
+		
+		Result				:pkLYSpear,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Spear Skill Books
+	{
+		pkLYSpear,
+		
+		Result				:LY_Skillbooks.BookSpear1,
+		OnCreate			:Recipe.OnCreate.UnpackLYSpearSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack SmallBlade Skill Books
+	{
+		LY_Skillbooks.BookSmallBlade1,
+		LY_Skillbooks.BookSmallBlade2,
+		LY_Skillbooks.BookSmallBlade3,
+		LY_Skillbooks.BookSmallBlade4,
+		LY_Skillbooks.BookSmallBlade5,
+		
+		Result				:pkLYSmallBlade,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack SmallBlade Skill Books
+	{
+		pkLYSmallBlade,
+		
+		Result				:LY_Skillbooks.BookSmallBlade1,
+		OnCreate			:Recipe.OnCreate.UnpackLYSmallBladeSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack LongBlade Skill Books
+	{
+		LY_Skillbooks.BookLongBlade1,
+		LY_Skillbooks.BookLongBlade2,
+		LY_Skillbooks.BookLongBlade3,
+		LY_Skillbooks.BookLongBlade4,
+		LY_Skillbooks.BookLongBlade5,
+		
+		Result				:pkLYLongBlade,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack LongBlade Skill Books
+	{
+		pkLYLongBlade,
+		
+		Result				:LY_Skillbooks.BookLongBlade1,
+		OnCreate			:Recipe.OnCreate.UnpackLYLongBladeSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack SmallBlunt Skill Books
+	{
+		LY_Skillbooks.BookSmallBlunt1,
+		LY_Skillbooks.BookSmallBlunt2,
+		LY_Skillbooks.BookSmallBlunt3,
+		LY_Skillbooks.BookSmallBlunt4,
+		LY_Skillbooks.BookSmallBlunt5,
+		
+		Result				:pkLYSmallBlunt,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack SmallBlunt Skill Books
+	{
+		pkLYSmallBlunt,
+		
+		Result				:LY_Skillbooks.BookSmallBlunt1,
+		OnCreate			:Recipe.OnCreate.UnpackLYSmallBluntSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack LongBlunt Skill Books
+	{
+		LY_Skillbooks.BookBlunt1,
+		LY_Skillbooks.BookBlunt2,
+		LY_Skillbooks.BookBlunt3,
+		LY_Skillbooks.BookBlunt4,
+		LY_Skillbooks.BookBlunt5,
+		
+		Result				:pkLYBlunt,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack LongBlunt Skill Books
+	{
+		pkLYBlunt,
+		
+		Result				:LY_Skillbooks.BookBlunt1,
+		OnCreate			:Recipe.OnCreate.UnpackLYBluntSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Axe Skill Books
+	{
+		LY_Skillbooks.BookAxe1,
+		LY_Skillbooks.BookAxe2,
+		LY_Skillbooks.BookAxe3,
+		LY_Skillbooks.BookAxe4,
+		LY_Skillbooks.BookAxe5,
+		
+		Result				:pkLYAxe,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Axe Skill Books
+	{
+		pkLYAxe,
+		
+		Result				:LY_Skillbooks.BookAxe1,
+		OnCreate			:Recipe.OnCreate.UnpackLYAxeSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Strength Skill Books
+	{
+		LY_Skillbooks.BookStrength1,
+		LY_Skillbooks.BookStrength2,
+		LY_Skillbooks.BookStrength3,
+		LY_Skillbooks.BookStrength4,
+		LY_Skillbooks.BookStrength5,
+		
+		Result				:pkLYStrength,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Strength Skill Books
+	{
+		pkLYStrength,
+		
+		Result				:LY_Skillbooks.BookStrength1,
+		OnCreate			:Recipe.OnCreate.UnpackLYStrengthSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack Fitness Skill Books
+	{
+		LY_Skillbooks.BookFitness1,
+		LY_Skillbooks.BookFitness2,
+		LY_Skillbooks.BookFitness3,
+		LY_Skillbooks.BookFitness4,
+		LY_Skillbooks.BookFitness5,
+		
+		Result				:pkLYFitness,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack Fitness Skill Books
+	{
+		pkLYFitness,
+		
+		Result				:LY_Skillbooks.BookFitness1,
+		OnCreate			:Recipe.OnCreate.UnpackLYFitnessSkillBook,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+	/****************************** Gyde's Trait Magazines Recipe MAGAZINES  ******************************/
+
+	recipe Pack 13 Gyde's Trait Magazines
+	{
+		Base.NutritionistMag,
+		Base.OrganizedMag,
+		Base.SpeedDemonMag,
+		Base.OutdoorsmanMag,
+		Base.FastReaderMag,
+		Base.FastLearnerMag,
+		Base.HandyMag,
+		Base.AxeManMag,
+		Base.BurglarMag,
+		Base.GracefulMag,
+		Base.DextrousMag,
+		Base.InconspicuousMag,
+		Base.KeenHearingMag,
+		
+		Result				:13pkGydeTraitMag,
+		Time				:300.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack 13 Gyde's Trait Magazines
+	{
+		13pkGydeTraitMag,
+		
+		Result				:Base.NutritionistMag,
+		OnCreate			:Recipe.OnCreate.Unpack13GydeTraitMag,
+		Time				:250.0,
+		Category			:Storage,
+	}
+	
+	recipe Pack 6 Gyde's Trait Magazines
+	{
+		Base.NutritionistMag,
+		Base.OrganizedMag,
+		Base.SpeedDemonMag,
+		Base.OutdoorsmanMag,
+		Base.FastReaderMag,
+		Base.FastLearnerMag,
+		
+		Result				:6pkGydeTraitMag,
+		Time				:160.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack 6 Gyde's Trait Magazines
+	{
+		6pkGydeTraitMag,
+		
+		Result				:Base.NutritionistMag,
+		OnCreate			:Recipe.OnCreate.Unpack6GydeTraitMag,
+		Time				:110.0,
+		Category			:Storage,
+	}
+
+	recipe Pack 7 Gyde's Trait Magazines
+	{
+		Base.HandyMag,
+		Base.AxeManMag,
+		Base.BurglarMag,
+		Base.GracefulMag,
+		Base.DextrousMag,
+		Base.InconspicuousMag,
+		Base.KeenHearingMag,
+		
+		Result				:7pkGydeTraitMag,
+		Time				:170.0,
+		Category			:Storage,
+	}
+	
+	recipe Unpack 7 Gyde's Trait Magazines
+	{
+		7pkGydeTraitMag,
+		
+		Result				:Base.HandyMag,
+		OnCreate			:Recipe.OnCreate.Unpack7GydeTraitMag,
+		Time				:120.0,
+		Category			:Storage,
+	}
+	
+	recipe Put Together Gyde's Trait Magazines
+	{
+		Packing.6pkGydeTraitMag,
+		Packing.7pkGydeTraitMag,
+		
+		Result				:Packing.13pkGydeTraitMag,
+		Time				:150.0,
+		Category			:Storage,
+	}
+	
+	recipe Split in Two Gyde's Trait Magazines
+	{
+		13pkGydeTraitMag,
+		
+		Result				:Packing.6pkGydeTraitMag,
+		OnCreate			:Recipe.OnCreate.UnpackSplitinTwoGydeTraitMag,
+		Time				:100.0,
+		Category			:Storage,
+	}
+	
+}

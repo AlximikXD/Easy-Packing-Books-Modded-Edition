@@ -10,11 +10,6 @@ Recipe_EN = {
 	Recipe_Pack_Driving_Skill_Books = "Pack Driving Books",
 	Recipe_Unpack_Driving_Skill_Books = "Unpack Driving Books",
 	
-/** -----  ----- || LY Lockpicking SKILL BOOKS || -----  ----- **/
-
-	Recipe_Pack_Lockpicking_Skill_Books = "Pack Lockpicking Books",
-	Recipe_Unpack_Lockpicking_Skill_Books = "Unpack Lockpicking Books",
-	
 /** -----  ----- || ALBION'S LITERACY Mod SKILL BOOKS || -----  ----- **/
 	
 	Recipe_Pack_Sprinting_Skill_Books = "Pack Sprinting Books",
@@ -32,8 +27,8 @@ Recipe_EN = {
 	Recipe_Pack_Reloading_Skill_Books = "Pack Reloading Books",
 	Recipe_Unpack_Reloading_Skill_Books = "Unpack Reloading Books",
 	
-	Recipe_Pack_Blunt_Skill_Books = "Pack Short Blunt Books",
-	Recipe_Unpack_Blunt_Skill_Books = "Unpack Short Blunt Books",
+	Recipe_Pack_Blunt_Skill_Books = "Pack Long Blunt Books",
+	Recipe_Unpack_Blunt_Skill_Books = "Unpack Long Blunt Books",
 	
 	Recipe_Pack_Maintenance_Skill_Books = "Pack Maintenance Books",
 	Recipe_Unpack_Maintenance_Skill_Books = "Unpack Maintenance Books",
@@ -61,4 +56,20 @@ Recipe_EN = {
 
 	Recipe_Pack_SmallBlunt_Skill_Books = "Pack Short Blunt Books",
 	Recipe_Unpack_SmallBlunt_Skill_Books = "Unpack Short Blunt Books",
+	
+/** -----  ----- || LittleYoschi's Skillbooks SKILL BOOKS || -----  ----- **/
+
+	Recipe_Pack_Lockpicking_Skill_Books = "Pack Lockpicking Books",
+	Recipe_Unpack_Lockpicking_Skill_Books = "Unpack Lockpicking Books",
+
+/** -----  ----- || Gyde's Trait Magazines Stack MAGAZINES || -----  ----- **/
+
+	Recipe_Pack_13_Gyde's_Trait_Magazines = "Pack All Gyde's Trait Magazines",
+	Recipe_Unpack_13_Gyde's_Trait_Magazines = "Unpack 13 Gyde's Trait Magazines",
+	Recipe_Pack_7_Gyde's_Trait_Magazines = "Pack 7 Gyde's Trait Magazines",
+	Recipe_Unpack_7_Gyde's_Trait_Magazines = "Unpack 7 Gyde's Trait Magazines",
+	Recipe_Pack_6_Gyde's_Trait_Magazines = "Pack 6 Gyde's Trait Magazines",
+	Recipe_Unpack_6_Gyde's_Trait_Magazines = "Unpack 6 Gyde's Trait Magazines",
+	Recipe_Put_Together_Gyde's_Trait_Magazines = "Put Together Gyde's Trait Magazines",
+	Recipe_Split_in_Two_Gyde's_Trait_Magazines = "Split in Two Gyde's Trait Magazines",
 }

@@ -23,40 +23,30 @@ ItemName_UA = {
 	ItemName_DrivingSkill.DrivingSkill_BookDriving3 = "Водіння, Част. 3: Просунутий",
 	ItemName_DrivingSkill.DrivingSkill_BookDriving4 = "Водіння, Част. 4: Досвідчений",
 	ItemName_DrivingSkill.DrivingSkill_BookDriving5 = "Водіння, Част. 5: Майстер",
-
-/** -----  ----- || Lockpicking SKILL BOOKS PACK || -----  ----- **/
-	
-	ItemName_Packing.pkLockpicking = "Збірка книг про Відмикання замків",
-	
-/** -----  ----- || Lockpicking SKILL BOOKS || -----  ----- **/
-	
-	ItemName_LY_Skillbooks.BookLockpicking1 = "Відмикання замків, Част. 1: Початківець",
-	ItemName_LY_Skillbooks.BookLockpicking2 = "Відмикання замків, Част. 2: Середній",
-	ItemName_LY_Skillbooks.BookLockpicking3 = "Відмикання замків, Част. 3: Просунутий",
-	ItemName_LY_Skillbooks.BookLockpicking4 = "Відмикання замків, Част. 4: Досвідчений",
-	ItemName_LY_Skillbooks.BookLockpicking5 = "Відмикання замків, Част. 5: Майстер",
 	
 /** -----  ----- || ALBION'S LITERACY Mod SKILL BOOKS PACK || -----  ----- **/
 	
-	ItemName_Packing.pkSprinting = "Збірка книг про Біг",
-	ItemName_Packing.pkNimble = "Збірка книг про Спритність",
-	ItemName_Packing.pkAiming = "Збірка книг про Точність",
-	ItemName_Packing.pkLightfoot = "Збірка книг про Легкий крок",
-	ItemName_Packing.pkReloading = "Збірка книг про Перезарядження",
-	ItemName_Packing.pkBlunt = "Збірка книг про Довг. дробяще",
-	ItemName_Packing.pkMaintenance = "Збірка книг про Обслуговування",
-	ItemName_Packing.pkAxe = "Збірка книг про Сокири",
-	ItemName_Packing.pkSmallBlade = "Збірка книг про Корот. ріжуче",
-	ItemName_Packing.pkLongBlade = "Збірка книг про Довг. ріжуче",
-	ItemName_Packing.pkFitness = "Збірка книг про Фітнес",
-	ItemName_Packing.pkSneak = "Збірка книг про Скритність",
-	ItemName_Packing.pkSpear = "Збірка книг про Списи",
-	ItemName_Packing.pkStrength = "Збірка книг про Силу",
-	ItemName_Packing.pkSmallBlunt = "Збірка книг про Корот. дробяще",
+	ItemName_Packing.pkALSprinting = "Збірка книг про Біг",
+	ItemName_Packing.pkALNimble = "Збірка книг про Спритність",
+	ItemName_Packing.pkALAiming = "Збірка книг про Точність",
+	ItemName_Packing.pkALLightfoot = "Збірка книг про Легкий крок",
+	ItemName_Packing.pkALReloading = "Збірка книг про Перезарядження",
+	ItemName_Packing.pkALBlunt = "Збірка книг про Довг. дробяще",
+	ItemName_Packing.pkALMaintenance = "Збірка книг про Обслуговування",
+	ItemName_Packing.pkALAxe = "Збірка книг про Сокири",
+	ItemName_Packing.pkALSmallBlade = "Збірка книг про Корот. ріжуче",
+	ItemName_Packing.pkALLongBlade = "Збірка книг про Довг. ріжуче",
+	ItemName_Packing.pkALFitness = "Збірка книг про Фітнес",
+	ItemName_Packing.pkALSneak = "Збірка книг про Скритність",
+	ItemName_Packing.pkALSpear = "Збірка книг про Списи",
+	ItemName_Packing.pkALStrength = "Збірка книг про Силу",
+	ItemName_Packing.pkALSmallBlunt = "Збірка книг про Корот. дробяще",
 	
-/** -----  ----- || ALBION'S LITERACY Mod SKILL BOOKS || -----  ----- **/
+/** -----  ----- || ALBION'S LITERACY Mod MAGAZINES  || -----  ----- **/
 
     ItemName_Literacy.LiteracyMag = "Навчіться читати!",
+
+/** -----  ----- || ALBION'S LITERACY Mod SKILL BOOKS || -----  ----- **/
 
     ItemName_Literacy.BookAiming1 = "Точність, Част. 1: Початківець",
     ItemName_Literacy.BookAiming2 = "Точність, Част. 2: Середній",
@@ -94,11 +84,11 @@ ItemName_UA = {
     ItemName_Literacy.BookSprinting4 = "Біг, Част. 4: Досвідчений",
     ItemName_Literacy.BookSprinting5 = "Біг, Част. 5: Майстер",
         
-    ItemName_Literacy.BookSneak1 = ", Част. 1: Початківець",
-    ItemName_Literacy.BookSneak2 = ", Част. 2: Середній",
-    ItemName_Literacy.BookSneak3 = ", Част. 3: Просунутий",
-    ItemName_Literacy.BookSneak4 = ", Част. 4: Досвідчений",
-    ItemName_Literacy.BookSneak5 = ", Част. 5: Майстер",
+    ItemName_Literacy.BookSneak1 = "Скритність, Част. 1: Початківець",
+    ItemName_Literacy.BookSneak2 = "Скритність, Част. 2: Середній",
+    ItemName_Literacy.BookSneak3 = "Скритність, Част. 3: Просунутий",
+    ItemName_Literacy.BookSneak4 = "Скритність, Част. 4: Досвідчений",
+    ItemName_Literacy.BookSneak5 = "Скритність, Част. 5: Майстер",
         
     ItemName_Literacy.BookNimble1 = "Спритність, Част. 1: Початківець",
     ItemName_Literacy.BookNimble2 = "Спритність, Част. 2: Середній",
@@ -147,5 +137,51 @@ ItemName_UA = {
     ItemName_Literacy.BookSpear3 = "Списи, Част. 3: Просунутий",
     ItemName_Literacy.BookSpear4 = "Списи, Част. 4: Досвідчений",
     ItemName_Literacy.BookSpear5 = "Списи, Част. 5: Майстер",
+	
+/** -----  ----- || LittleYoschi's Skillbooks SKILL BOOKS PACK || -----  ----- **/
+	
+	ItemName_Packing.pkLYLockpicking = "Збірка книг про Відмикання замків",
+	ItemName_Packing.pkLYSprinting = "Збірка книг про Біг",
+	ItemName_Packing.pkLYNimble = "Збірка книг про Спритність",
+	ItemName_Packing.pkLYAiming = "Збірка книг про Точність",
+	ItemName_Packing.pkLYLightfoot = "Збірка книг про Легкий крок",
+	ItemName_Packing.pkLYReloading = "Збірка книг про Перезарядження",
+	ItemName_Packing.pkLYBlunt = "Збірка книг про Довг. дробяще",
+	ItemName_Packing.pkLYMaintenance = "Збірка книг про Обслуговування",
+	ItemName_Packing.pkLYAxe = "Збірка книг про Сокири",
+	ItemName_Packing.pkLYSmallBlade = "Збірка книг про Корот. ріжуче",
+	ItemName_Packing.pkLYLongBlade = "Збірка книг про Довг. ріжуче",
+	ItemName_Packing.pkLYFitness = "Збірка книг про Фітнес",
+	ItemName_Packing.pkLYSneak = "Збірка книг про Скритність",
+	ItemName_Packing.pkLYSpear = "Збірка книг про Списи",
+	ItemName_Packing.pkLYStrength = "Збірка книг про Силу",
+	ItemName_Packing.pkLYSmallBlunt = "Збірка книг про Корот. дробяще",
+	
+/** -----  ----- || LittleYoschi's Skillbooks SKILL BOOKS || -----  ----- **/
+	
+	ItemName_LY_Skillbooks.BookLockpicking1 = "Відмикання замків, Част. 1: Початківець",
+	ItemName_LY_Skillbooks.BookLockpicking2 = "Відмикання замків, Част. 2: Середній",
+	ItemName_LY_Skillbooks.BookLockpicking3 = "Відмикання замків, Част. 3: Просунутий",
+	ItemName_LY_Skillbooks.BookLockpicking4 = "Відмикання замків, Част. 4: Досвідчений",
+	ItemName_LY_Skillbooks.BookLockpicking5 = "Відмикання замків, Част. 5: Майстер",
+	
+	ItemName_LY_Skillbooks.BookLightfooted1 = "Легкий крок, Част. 1: Початківець",
+	ItemName_LY_Skillbooks.BookLightfooted2 = "Легкий крок, Част. 2: Середній",
+	ItemName_LY_Skillbooks.BookLightfooted3 = "Легкий крок, Част. 3: Просунутий",
+	ItemName_LY_Skillbooks.BookLightfooted4 = "Легкий крок, Част. 4: Досвідчений",
+	ItemName_LY_Skillbooks.BookLightfooted5 = "Легкий крок, Част. 5: Майстер",
+	
+	ItemName_LY_Skillbooks.BookSneaking1 = "Скритність, Част. 1: Початківець",
+	ItemName_LY_Skillbooks.BookSneaking2 = "Скритність, Част. 2: Середній",
+	ItemName_LY_Skillbooks.BookSneaking3 = "Скритність, Част. 3: Просунутий",
+	ItemName_LY_Skillbooks.BookSneaking4 = "Скритність, Част. 4: Досвідчений",
+	ItemName_LY_Skillbooks.BookSneaking5 = "Скритність, Част. 5: Майстер",
+	
+/** -----  ----- || Gyde's Trait Magazines Stack MAGAZINES || -----  ----- **/
+
+	ItemName_Packing.13pkGydeTraitMag = "Збірка журналів Gyde про риси",
+	ItemName_Packing.6pkGydeTraitMag = "6? журналів рис Gyde",
+	ItemName_Packing.7pkGydeTraitMag = "7? журналів рис Gyde",
+
 }
 	

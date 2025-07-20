@@ -1,0 +1,256 @@
+module Packing
+{
+	imports
+	{
+		Base,
+	}
+	
+	/******************************  Scavenging Skill Fixed Model BOOKS  ******************************/
+	
+	model PackScavengingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackScavengingBook,
+		scale = 0.5,
+	}
+	
+	/******************************  Driving Skill Model BOOKS  ******************************/
+	
+	model PackDrivingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/PackDrivingBook,
+		scale = 0.5,
+	}
+	
+	/******************************  Albion's Literacy Mod Skill Model BOOKS  ******************************/
+	
+	model AL_PackMaintenanceBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackMaintenanceBook,
+		scale = 0.5,
+	}
+	
+	model AL_PackSprintingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackSprintingBook,
+		scale = 0.5,
+	}
+	
+	model AL_PackNimbleBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackNimbleBook,
+		scale = 0.5,
+	}
+	
+	model AL_PackAimingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackAimingBook,
+		scale = 0.5,
+	}
+	
+	model AL_PackLightfootBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackLightfootBook,
+		scale = 0.5,
+	}
+
+	model AL_PackReloadingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackReloadingBook,
+		scale = 0.5,
+	}
+
+	model AL_PackLongBluntBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackLongBluntBook,
+		scale = 0.5,
+	}
+
+	model AL_PackAxeBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackAxeBook,
+		scale = 0.5,
+	}
+
+	model AL_PackSmallBladeBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackSmallBladeBook,
+		scale = 0.5,
+	}
+
+	model AL_PackLongBladeBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackLongBladeBook,
+		scale = 0.5,
+	}
+
+	model AL_PackFitnessBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackFitnessBook,
+		scale = 0.5,
+	}
+
+	model AL_PackSneakBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackSneakBook,
+		scale = 0.5,
+	}
+
+	model AL_PackSpearBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackSpearBook,
+		scale = 0.5,
+	}
+
+	model AL_PackStrengthBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackStrengthBook,
+		scale = 0.5,
+	}
+
+	model AL_PackSmallBluntBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/AL_PackSmallBluntBook,
+		scale = 0.5,
+	}	
+
+	/******************************  LittleYoschi's Skillbooks Model BOOKS  ******************************/
+	
+	model LY_PackLockpickingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackLockpickingBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackSneakBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackSneakBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackNimbleBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackNimbleBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackLightfootBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackLightfootBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackSprintingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackSprintingBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackReloadingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackReloadingBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackAimingBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackAimingBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackMaintenanceBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackMaintenanceBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackAxeBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackAxeBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackLongBluntBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackLongBluntBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackSmallBluntBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackSmallBluntBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackLongBladeBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackLongBladeBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackSmallBladeBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackSmallBladeBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackSpearBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackSpearBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackFitnessBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackFitnessBook,
+		scale = 0.5,
+	}
+	
+	model LY_PackStrengthBook
+	{
+		mesh = WorldItems/PackSkillBook,
+		texture = WorldItems/LY_PackStrengthBook,
+		scale = 0.5,
+	}
+	
+	/****************************** Gyde's Trait Magazines Model MAGAZINES  ******************************/
+	
+	model PackGydeTraitMags
+	{
+		mesh = WorldItems/PackRecipeMagazines,
+		texture = WorldItems/PackGydeTraitMags,
+		scale = 0.4,
+	}
+	
+}

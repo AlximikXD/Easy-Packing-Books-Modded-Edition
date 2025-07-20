@@ -1,0 +1,378 @@
+module Packing
+{
+	imports
+	{
+		Base,
+	}
+	
+	/******************************  Scavenging Skill Fixed Stack BOOKS  ******************************/
+	
+	item pkScavenging
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Scavenging Books,
+		Icon				= PackScavengingBook,
+		WorldStaticModel	= PackScavengingBook,
+	}	
+	
+	/******************************  Driving Skill Stack BOOKS  ******************************/
+	
+	item pkDriving
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Driving Books,
+		Icon				= PackDrivingBook,
+		WorldStaticModel	= PackDrivingBook,
+	}	
+	
+	/****************************** Albion's Literacy Mod Skill Stack BOOKS  ******************************/
+	
+	item pkALSprinting
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Sprinting Books,
+		Icon				= AL_PackSprintingBook,
+		WorldStaticModel	= AL_PackSprintingBook,
+	}	
+
+	item pkALNimble
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Nimble Books,
+		Icon				= AL_PackNimbleBook,
+		WorldStaticModel	= AL_PackNimbleBook,
+	}	
+
+	item pkALAiming
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Aiming Books,
+		Icon				= AL_PackAimingBook,
+		WorldStaticModel	= AL_PackAimingBook,
+	}	
+	
+	item pkALLightfoot
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Lightfoot Books,
+		Icon				= AL_PackLightfootBook,
+		WorldStaticModel	= AL_PackLightfootBook,
+	}
+
+	item pkALReloading
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Reloading Books,
+		Icon				= AL_PackReloadingBook,
+		WorldStaticModel	= AL_PackReloadingBook,
+	}	
+
+	item pkALBlunt
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Blunt Books,
+		Icon				= AL_PackLongBluntBook,
+		WorldStaticModel	= AL_PackLongBluntBook,
+	}	
+
+	item pkALMaintenance
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Maintenance Books,
+		Icon				= AL_PackMaintenanceBook,
+		WorldStaticModel	= AL_PackMaintenanceBook,
+	}	
+
+	item pkALAxe
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Axe Books,
+		Icon				= AL_PackAxeBook,
+		WorldStaticModel	= AL_PackAxeBook,
+	}	
+
+	item pkALSmallBlade
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of SmallBlade Books,
+		Icon				= AL_PackSmallBladeBook,
+		WorldStaticModel	= AL_PackSmallBladeBook,
+	}	
+
+	item pkALLongBlade
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of LongBlade Books,
+		Icon				= AL_PackLongBladeBook,
+		WorldStaticModel	= AL_PackLongBladeBook,
+	}	
+
+	item pkALFitness
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Fitness Books,
+		Icon				= AL_PackFitnessBook,
+		WorldStaticModel	= AL_PackFitnessBook,
+	}	
+
+	item pkALSneak
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Sneak Books,
+		Icon				= AL_PackSneakBook,
+		WorldStaticModel	= AL_PackSneakBook,
+	}	
+
+	item pkALSpear
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Spear Books,
+		Icon				= AL_PackSpearBook,
+		WorldStaticModel	= AL_PackSpearBook,
+	}	
+
+	item pkALStrength
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Strength Books,
+		Icon				= AL_PackStrengthBook,
+		WorldStaticModel	= AL_PackStrengthBook,
+	}		
+	
+	item pkALSmallBlunt
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of SmallBlunt Books,
+		Icon				= AL_PackSmallBluntBook,
+		WorldStaticModel	= AL_PackSmallBluntBook,
+	}
+	
+	/****************************** LittleYoschi's Skillbooks Skill Stack BOOKS  ******************************/
+	
+	item pkLYLockpicking
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Lockpicking Books,
+		Icon				= LY_PackLockpickingBook,
+		WorldStaticModel	= LY_PackLockpickingBook,
+	}	
+	
+	item pkLYSprinting
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Sprinting Books,
+		Icon				= LY_PackSprintingBook,
+		WorldStaticModel	= LY_PackSprintingBook,
+	}	
+	
+	item pkLYLightfoot
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Lightfoot Books,
+		Icon				= LY_PackLightfootBook,
+		WorldStaticModel	= LY_PackLightfootBook,
+	}	
+	
+	item pkLYNimble
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Nimble Books,
+		Icon				= LY_PackNimbleBook,
+		WorldStaticModel	= LY_PackNimbleBook,
+	}	
+	
+	item pkLYSneak
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Sneaking Books,
+		Icon				= LY_PackSneakBook,
+		WorldStaticModel	= LY_PackSneakBook,
+	}	
+	
+	item pkLYAiming
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Aiming Books,
+		Icon				= LY_PackAimingBook,
+		WorldStaticModel	= LY_PackAimingBook,
+	}	
+	
+	item pkLYReloading
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Reloading Books,
+		Icon				= LY_PackReloadingBook,
+		WorldStaticModel	= LY_PackReloadingBook,
+	}	
+	
+	item pkLYMaintenance
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Maintenance Books,
+		Icon				= LY_PackMaintenanceBook,
+		WorldStaticModel	= LY_PackMaintenanceBook,
+	}	
+	
+	item pkLYAxe
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Axe Books,
+		Icon				= LY_PackAxeBook,
+		WorldStaticModel	= LY_PackAxeBook,
+	}	
+	
+	item pkLYBlunt
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of LongBlunt Books,
+		Icon				= LY_PackLongBluntBook,
+		WorldStaticModel	= LY_PackLongBluntBook,
+	}	
+	
+	item pkLYSmallBlunt
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of SmallBlunt Books,
+		Icon				= LY_PackSmallBluntBook,
+		WorldStaticModel	= LY_PackSmallBluntBook,
+	}	
+	
+	item pkLYLongBlade
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of LongBlade Books,
+		Icon				= LY_PackLongBladeBook,
+		WorldStaticModel	= LY_PackLongBladeBook,
+	}	
+	
+	item pkLYSmallBlade
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of SmallBlade Books,
+		Icon				= LY_PackSmallBladeBook,
+		WorldStaticModel	= LY_PackSmallBladeBook,
+	}	
+	
+	item pkLYSpear
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Spear Books,
+		Icon				= LY_PackSpearBook,
+		WorldStaticModel	= LY_PackSpearBook,
+	}	
+	
+	item pkLYFitness
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Fitness Books,
+		Icon				= LY_PackFitnessBook,
+		WorldStaticModel	= LY_PackFitnessBook,
+	}	
+	
+	item pkLYStrength
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= Bundle of Strength Books,
+		Icon				= LY_PackStrengthBook,
+		WorldStaticModel	= LY_PackStrengthBook,
+	}	
+	
+	/****************************** Gyde's Trait Magazines Stack MAGAZINES  ******************************/
+	
+	item 13pkGydeTraitMag
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 2,
+		Type				= Literature,
+		DisplayName			= 13 x Bundle of Gyde's Trait Magazines,
+		Icon				= PackGydeTraitMags,
+		WorldStaticModel	= PackGydeTraitMags,
+	}	
+	
+	item 6pkGydeTraitMag
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 1.5,
+		Type				= Literature,
+		DisplayName			= 6 x Bundle of Gyde's Trait Magazines,
+		Icon				= PackGydeTraitMags,
+		WorldStaticModel	= PackGydeTraitMags,
+	}	
+	
+	item 7pkGydeTraitMag
+	{
+		DisplayCategory 	= SkillBook,
+		Weight				= 1.6,
+		Type				= Literature,
+		DisplayName			= 7 x Bundle of Gyde's Trait Magazines,
+		Icon				= PackGydeTraitMags,
+		WorldStaticModel	= PackGydeTraitMags,
+	}	
+	
+}

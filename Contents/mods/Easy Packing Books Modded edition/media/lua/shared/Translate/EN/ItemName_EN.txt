@@ -8,26 +8,48 @@ ItemName_EN = {
 	
 	ItemName_Packing.pkDriving = "Driving Book Collection",
 	
-/** -----  ----- || LY Lockpicking SKILL BOOKS || -----  ----- **/
-	
-	ItemName_Packing.pkLockpicking = "Lockpicking Book Collection",
-	
 /** -----  ----- || ALBION'S LITERACY Mod SKILL BOOKS || -----  ----- **/
 	
-	ItemName_Packing.pkSprinting = "Sprinting Book Collection",
-	ItemName_Packing.pkNimble = "Nimble Book Collection",
-	ItemName_Packing.pkAiming = "Aiming Book Collection",
-	ItemName_Packing.pkLightfoot = "Lightfoot Book Collection",
-	ItemName_Packing.pkReloading = "Reloading Book Collection",
-	ItemName_Packing.pkBlunt = "Short Blunt Book Collection",
-	ItemName_Packing.pkMaintenance = "Maintenance Book Collection",
-	ItemName_Packing.pkAxe = "Axe Book Collection",
-	ItemName_Packing.pkSmallBlade = "Short Blade Book Collection",
-	ItemName_Packing.pkLongBlade = "Long Blade Book Collection",
-	ItemName_Packing.pkFitness = "Fitness Book Collection",
-	ItemName_Packing.pkSneak = "Sneak Book Collection",
-	ItemName_Packing.pkSpear = "Spear Book Collection",
-	ItemName_Packing.pkStrength = "Strength Book Collection",
-	ItemName_Packing.pkSmallBlunt = "Short Blunt Book Collection",
+	ItemName_Packing.pkALSprinting = "Sprinting Book Collection",
+	ItemName_Packing.pkALNimble = "Nimble Book Collection",
+	ItemName_Packing.pkALAiming = "Aiming Book Collection",
+	ItemName_Packing.pkALLightfoot = "Lightfoot Book Collection",
+	ItemName_Packing.pkALReloading = "Reloading Book Collection",
+	ItemName_Packing.pkALBlunt = "Long Blunt Book Collection",
+	ItemName_Packing.pkALMaintenance = "Maintenance Book Collection",
+	ItemName_Packing.pkALAxe = "Axe Book Collection",
+	ItemName_Packing.pkALSmallBlade = "Short Blade Book Collection",
+	ItemName_Packing.pkALLongBlade = "Long Blade Book Collection",
+	ItemName_Packing.pkALFitness = "Fitness Book Collection",
+	ItemName_Packing.pkALSneak = "Sneak Book Collection",
+	ItemName_Packing.pkALSpear = "Spear Book Collection",
+	ItemName_Packing.pkALStrength = "Strength Book Collection",
+	ItemName_Packing.pkALSmallBlunt = "Short Blunt Book Collection",
+	
+/** -----  ----- || LittleYoschi's Skillbooks SKILL BOOKS || -----  ----- **/
+	
+	ItemName_Packing.pkLYLockpicking = "Lockpicking Book Collection",
+	ItemName_Packing.pkLYSprinting = "Sprinting Book Collection",
+	ItemName_Packing.pkLYNimble = "Nimble Book Collection",
+	ItemName_Packing.pkLYAiming = "Aiming Book Collection",
+	ItemName_Packing.pkLYLightfoot = "Lightfoot Book Collection",
+	ItemName_Packing.pkLYReloading = "Reloading Book Collection",
+	ItemName_Packing.pkLYBlunt = "Long Blunt Book Collection",
+	ItemName_Packing.pkLYMaintenance = "Maintenance Book Collection",
+	ItemName_Packing.pkLYAxe = "Axe Book Collection",
+	ItemName_Packing.pkLYSmallBlade = "Short Blade Book Collection",
+	ItemName_Packing.pkLYLongBlade = "Long Blade Book Collection",
+	ItemName_Packing.pkLYFitness = "Fitness Book Collection",
+	ItemName_Packing.pkLYSneak = "Sneak Book Collection",
+	ItemName_Packing.pkLYSpear = "Spear Book Collection",
+	ItemName_Packing.pkLYStrength = "Strength Book Collection",
+	ItemName_Packing.pkLYSmallBlunt = "Short Blunt Book Collection",
+
+/** -----  ----- || Gyde's Trait Magazines Stack MAGAZINES || -----  ----- **/
+
+	ItemName_Packing.13pkGydeTraitMag = "Gyde's Trait Magazine Collection",
+	ItemName_Packing.6pkGydeTraitMag = "6x Gyde's Trait Magazines",
+	ItemName_Packing.7pkGydeTraitMag = "7x Gyde's Trait Magazines",
+
 }
 	

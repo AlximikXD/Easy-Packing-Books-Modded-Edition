@@ -14,95 +14,174 @@ Events.OnGameBoot.Add(function()
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-		["Packing.pkLockpicking"] = {
+		["Packing.pkALSprinting"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-		["Packing.pkSprinting"] = {
+		["Packing.pkALNimble"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-		["Packing.pkNimble"] = {
+		["Packing.pkALAiming"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-		["Packing.pkAiming"] = {
+		["Packing.pkALLightfoot"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkALReloading"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkALBlunt"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkALMaintenance"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkALAxe"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkALSmallBlade"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkALLongBlade"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkALFitness"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkALSneak"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkALSpear"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkALStrength"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkALSmallBlunt"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkLYLockpicking"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkLYSprinting"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkLYNimble"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkLYAiming"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkLYLightfoot"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkLYReloading"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkLYBlunt"] = {
+			["height"] = 2,
+			["width"] = 2,
+			["maxStackSize"] = 1,
+		},
+		["Packing.pkLYMaintenance"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
 
-		["Packing.pkLightfoot"] = {
+		["Packing.pkLYAxe"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-
-		["Packing.pkReloading"] = {
+		["Packing.pkLYSmallBlade"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-
-		["Packing.pkBlunt"] = {
+		["Packing.pkLYLongBlade"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-
-		["Packing.pkMaintenance"] = {
+		["Packing.pkLYFitness"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-
-		["Packing.pkAxe"] = {
+		["Packing.pkLYSneak"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-
-		["Packing.pkSmallBlade"] = {
+		["Packing.pkLYSpear"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-
-		["Packing.pkLongBlade"] = {
+		["Packing.pkLYStrength"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-
-		["Packing.pkFitness"] = {
+		["Packing.pkLYSmallBlunt"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-
-		["Packing.pkSneak"] = {
+		["Packing.13pkGydeTraitMag"] = {
 			["height"] = 2,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-
-		["Packing.pkSpear"] = {
-			["height"] = 2,
+		["Packing.6pkGydeTraitMag"] = {
+			["height"] = 1,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},
-
-		["Packing.pkStrength"] = {
-			["height"] = 2,
-			["width"] = 2,
-			["maxStackSize"] = 1,
-		},
-
-		["Packing.pkSmallBlunt"] = {
-			["height"] = 2,
+		["Packing.7pkGydeTraitMag"] = {
+			["height"] = 1,
 			["width"] = 2,
 			["maxStackSize"] = 1,
 		},

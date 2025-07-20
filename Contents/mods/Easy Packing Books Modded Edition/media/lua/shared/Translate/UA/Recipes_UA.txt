@@ -10,11 +10,6 @@ Recipe_UA = {
 	Recipe_Pack_Driving_Skill_Books = "Упакувати книги про Водіння",
 	Recipe_Unpack_Driving_Skill_Books = "Розпакувати книги про Водіння",
 	
-/** -----  ----- || LY Lockpicking SKILL BOOKS || -----  ----- **/
-
-	Recipe_Pack_Lockpicking_Skill_Books = "Упакувати книги про Відмикання замків",
-	Recipe_Unpack_Lockpicking_Skill_Books = "Розпакувати книги про Відмикання замків",
-	
 /** -----  ----- || ALBION'S LITERACY Mod SKILL BOOKS || -----  ----- **/
 	
 	Recipe_Pack_Sprinting_Skill_Books = "Упакувати книги про Біг",
@@ -61,4 +56,21 @@ Recipe_UA = {
 
 	Recipe_Pack_SmallBlunt_Skill_Books = "Упакувати книги про Корот. дробяще",
 	Recipe_Unpack_SmallBlunt_Skill_Books = "Розпакувати книги про Корот. дробяще",
+	
+/** -----  ----- || LittleYoschi's Skillbooks SKILL BOOKS || -----  ----- **/
+
+	Recipe_Pack_Lockpicking_Skill_Books = "Упакувати книги про Відмикання замків",
+	Recipe_Unpack_Lockpicking_Skill_Books = "Розпакувати книги про Відмикання замків",
+	
+/** -----  ----- || Gyde's Trait Magazines Stack MAGAZINES || -----  ----- **/
+
+	Recipe_Pack_13_Gyde's_Trait_Magazines = "Упакувати всі 13 журналів про риси Gyde",
+	Recipe_Unpack_13_Gyde's_Trait_Magazines = "Розпакувати 13 журналів про риси Gyde",
+	Recipe_Pack_7_Gyde's_Trait_Magazines = "Упакувати 7 журналів про риси Gyde",
+	Recipe_Unpack_7_Gyde's_Trait_Magazines = "Розпакувати 7 журналів про риси Gyde",
+	Recipe_Pack_6_Gyde's_Trait_Magazines = "Упакувати 6 журналів про риси Gyde",
+	Recipe_Unpack_6_Gyde's_Trait_Magazines = "Розпакувати 6 журналів про риси Gyde",
+	Recipe_Put_Together_Gyde's_Trait_Magazines = "Об’єднати журнали про риси Gyde",
+	Recipe_Split_in_Two_Gyde's_Trait_Magazines = "Розділити журнали про риси Gyde навпіл",
+
 }
